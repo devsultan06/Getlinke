@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
 import hamburger from "../../public/image/open.png";
 import links from "../data/link";
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -10,9 +11,9 @@ const Navbar = () => {
       <nav>
         <ul>
           {links.map((link) => (
-            <li key={link.label}>
-              <Link to={link.href}>{link.label}</Link>
-            </li>
+            <NavLink to={link.href} key={link.label}>
+              <li>{link.label}</li>
+            </NavLink>
           ))}
         </ul>
       </nav>
