@@ -14,11 +14,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 header {
   margin: 0;
-  display: flex;
   background-color: #150e28;
   color: white;
   font-family: "Arial", sans-serif;
