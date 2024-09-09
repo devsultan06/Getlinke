@@ -52,7 +52,7 @@ const NavbarHook = () => {
   };
 
   return (
-    <header className="header px-[9%] pt-8 pb-1 flex-wrap border-b border-[#d434fe]">
+    <header className="header px-[9%] pt-8 pb-1 flex-wrap border-b border-[#753386]">
       <nav className="nav container">
         <NavLink to="/" className="nav__logo text-2xl font-semibold">
           get<span style={{ color: "#D434FE" }}>linked</span>
