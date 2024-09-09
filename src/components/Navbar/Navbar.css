@@ -26,7 +26,6 @@
     position: fixed;
     top: 0;
     right: -100%;
-    background-color: #150e28;
     width: 80%;
     height: 100%;
     padding: 6rem 3rem 0;
@@ -50,14 +49,12 @@
   right: 0;
   left: 0;
   width: 100%;
-  background-color: #150E28;
 }
 
 .nav__menu_mobile {
   position: fixed;
   top: 0;
   right: -100%;
-  background-color: #150e28;
   width: 80%;
   height: 100%;
   padding: 6rem 3rem 0;

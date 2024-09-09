@@ -32,7 +32,6 @@
   row-gap: 2.5rem;
 }
 
-
 .nav__close {
   position: absolute;
   top: 1rem;
@@ -43,7 +42,6 @@
   right: 0;
   left: 0;
   width: 100%;
-  background-color: #150E28;
 }
 
 .nav__list__web {
