@@ -1,0 +1,56 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.nav__toggle {
+  margin-right: 20px;
+}
+
+.nav__toggle,
+.nav__close {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.nav__toggle img,
+.nav__close img {
+  width: 3rem;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.show-menu {
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: #150E28;
+}
+
+.nav__list__web {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5rem;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}

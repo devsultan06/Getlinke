@@ -1,13 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Giga:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   font-family: "Poppins", sans-serif;
-  /* overflow-x: hidden; */
-  scrollbar-color: #0f0f0f transparent;
 }
 
 body {
@@ -17,39 +13,22 @@ body {
   overflow: hidden;
 }
 
-header {
-  margin: 0;
-  background-color: #150e28;
-  color: white;
-  font-family: "Arial", sans-serif;
-}
-
 .circle1 {
-  position: absolute;
   left: 0;
   top: 0;
   width: 1086px;
   height: 836px;
-  background-image:/* webpackIgnore: true */ url("../public/image/purple-lens-flare-png.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.circle2 {
-  position: absolute;
-  left: 561px;
-  top: 0;
-  width: 951px;
-  height: 994px;
-  background-image:/* webpackIgnore: true */ url("../public/image/purple-lens-flare-png.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+ul li a:hover {
+  background-image: linear-gradient(to right, #903aff 10%, #d434fe 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 600px) {
   .circle1 {
     width: 800px;
-    height: 836px;
     left: -200px;
   }
   .circle2 {
