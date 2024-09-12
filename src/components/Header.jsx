@@ -20,11 +20,11 @@
         <NavbarHook />
         <div className="circle1 bg-no-repeat bg-cover absolute bg-purple-lens-flare pointer-events-none "></div>
         <div className="circle2 bg-no-repeat bg-cover absolute bg-purple-lens-flare left-[561px] top-0 w-[971px] h-[994px] pointer-events-none"></div>
-        <div className="title">
+        <div className="title pt-[120px]">
           <div className="all-inner">
             <TitleWithTypingEffect />
 
-            <div className="box relative">
+            <div className="box relative flex items-start justify-between w-full">
               <div className="text">
                 <h1 className="text-5xl font-bold mb-3">getlinked Tech</h1>
 

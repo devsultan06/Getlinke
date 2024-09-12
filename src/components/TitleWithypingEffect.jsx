@@ -5,8 +5,9 @@ const TitleWithTypingEffect = () => {
   return (
     <div className="title-inner float-right">
       <div className="typing-container">
-        <h1 className="text-3xl title">
+        <h1 className="text-3xl title ">
           <ReactTyped
+            className="hello"
             strings={["Igniting a Revolution in HR Innovation"]}
             typeSpeed={50} // Speed of typing
             backSpeed={50} // Speed of deleting if needed

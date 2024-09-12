@@ -1,6 +1,6 @@
 const CurvedLine = () => {
   return (
-    <div className="curve-container float-right">
+    <div className="curve-container float-right -mt-[160px] -mr-[60px]">
       <svg
         width="400"
         height="350"

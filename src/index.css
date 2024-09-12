@@ -31,31 +31,10 @@ ul li a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-div.title {
-  padding-top: 130px;
-}
-
-h1.title {
-  font-family: "Sofia", cursive;
-}
-
-.curve-container {
-  margin-top: -160px;
-  float: right;
-  margin-right: -60px;
-}
-
 .curved-line {
   stroke-dasharray: 200; /* Adjust this based on the length of your path */
   stroke-dashoffset: 200; /* Same as dasharray to start hidden */
   animation: draw-line 5s ease forwards;
-}
-
-div.box {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 100%;
 }
 
 div.all-inner {
