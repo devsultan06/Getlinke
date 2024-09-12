@@ -15,7 +15,7 @@
 
   const Header = () => {
     return (
-      <header className=" text-white bg-[#150e28] all">
+      <header className=" text-white bg-[#150e28] all ">
         {/* <Navbar /> */}
         <NavbarHook />
         <div className="circle1 bg-no-repeat bg-cover absolute bg-purple-lens-flare pointer-events-none "></div>
@@ -28,8 +28,8 @@
               <div className="text">
                 <h1 className="text-5xl font-bold mb-3">getlinked Tech</h1>
 
-                <h1 className="text-5xl font-bold mb-6">
-                  Hackathon <span>1.0</span>{" "}
+                <h1 className="text-5xl font-bold mb-6 ">
+                  Hackathon <span className="text-[#D434FE]">1.0</span>{" "}
                 </h1>
                 <p className="mb-6">
                   Participate in getlinked tech Hackathon 2023 stand a chance to

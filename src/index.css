@@ -14,7 +14,7 @@ body {
 }
 
 .all {
-  height: 500vh;
+  border-bottom: 2px solid #753386;
 }
 
 .circle1 {
@@ -189,6 +189,48 @@ div.image img {
   }
 }
 
+div.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 100px;
+  padding: 100px 120px;
+  position: relative;
+}
+
+div.into {
+  width: 1700px;
+  z-index: 100;
+}
+
+.star6,
+.arrow,
+.star5 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow {
+  top: 500px;
+  left: 600px;
+  animation: moveAround 10s linear infinite;
+}
+
+.star5 {
+  top: 250px;
+  left: 100px;
+  animation: floatAround 10s linear infinite;
+}
+
+.star6 {
+  top: 250px;
+  left: 1200px;
+  z-index: 0;
+  animation: wanderAround 10s linear infinite;
+}
+
 @media screen and (max-width: 600px) {
   .circle1 {
     width: 800px;
@@ -279,5 +321,25 @@ div.image img {
     top: 580px;
     left: 220px;
     animation: floatAround 10s linear infinite;
+  }
+
+  div.introduction {
+    display: block;
+    text-align: center;
+
+    padding: 100px 10px;
+  }
+  div.into {
+    width: 100%;
+    margin-top: 50px;
+    z-index: 1000;
+  }
+
+  .arrow {
+    left: 200px;
+  }
+
+  .star6 {
+    left: 200px;
   }
 }
