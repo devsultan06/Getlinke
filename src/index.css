@@ -55,12 +55,9 @@ div.box {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  z-index: 1000;
   width: 100%;
 }
-div.text {
-  margin-top: -50px;
-}
+
 div.all-inner {
   padding: 0px 120px;
   position: relative;
@@ -101,7 +98,6 @@ img.chain {
   animation: waveMotion 10s linear infinite;
 }
 
-
 img.star3 {
   width: 50px;
   height: 50px;
@@ -110,7 +106,6 @@ img.star3 {
   left: 1320px;
   animation: moveAround 10s linear infinite;
 }
-
 
 img.star4 {
   width: 50px;
@@ -197,7 +192,6 @@ div.image img {
   }
 }
 
-
 @keyframes waveMotion {
   0% {
     transform: translate(0, 0);
@@ -230,6 +224,7 @@ div.image img {
   div.box {
     display: block;
     text-align: center;
+    z-index: 0;
   }
 
   div.title-inner {
@@ -242,17 +237,15 @@ div.image img {
   }
 
   div.text {
-    margin-top: -100px;
+    margin-top: 0px;
   }
 
   div.text h1 {
     font-size: 40px;
-    z-index: 10000;
   }
 
   div.image img {
     margin-top: 50px;
-    z-index: 0;
   }
 
   .typing-container {
@@ -270,43 +263,42 @@ div.image img {
     position: absolute;
     top: 330px;
     left: 300px;
-     animation: wanderAround 10s linear infinite;
+    animation: wanderAround 10s linear infinite;
   }
 
   img.boom {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 280px;
-  left: 120px;
-  animation: floatAround 10s linear infinite;
-}
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    animation: floatAround 10s linear infinite;
+  }
 
-img.chain {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 380px;
-  left: 120px;
-  animation: waveMotion 10s linear infinite;
-}
+  img.chain {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 380px;
+    left: 120px;
+    animation: waveMotion 10s linear infinite;
+  }
 
-img.star3 {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 680px;
-  left: 420px;
-  animation: moveAround 10s linear infinite;
-}
+  img.star3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 680px;
+    left: 420px;
+    animation: moveAround 10s linear infinite;
+  }
 
-
-img.star4 {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 580px;
-  left: 220px;
-  animation: floatAround 10s linear infinite;
-}
+  img.star4 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 580px;
+    left: 220px;
+    animation: floatAround 10s linear infinite;
+  }
 }
