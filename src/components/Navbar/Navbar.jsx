@@ -2,8 +2,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import links from "../../data/link";
-import open from "../../../public/image/open.png";
-import close from "../../../public/image/close.png";
+import open from "/public/image/open.png";
+import close from "/public/image/close.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);

@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import "./NavbarHook.css";
 import links from "../../data/link";
-import open from "../../../public/image/open.png";
-import close from "../../../public/image/close.png";
+import open from "/public/image/open.png";
+import close from "/public/image/close.png";
 
 const NavbarHook = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

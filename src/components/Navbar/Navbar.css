@@ -20,7 +20,6 @@
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 850px) {
   .nav__menu {
     position: fixed;
@@ -29,14 +28,16 @@
     width: 80%;
     height: 100%;
     padding: 6rem 3rem 0;
+    z-index: 1000;
     transition: right 0.4s;
+    background-color: #150E28;
   }
 }
 @media screen and (max-width: 300px) {
   .nav__menu {
     padding: 4rem 1rem 2rem;
+    z-index: 1000;
   }
-
 }
 
 .nav__close {
@@ -59,6 +60,7 @@
   height: 100%;
   padding: 6rem 3rem 0;
   transition: right 0.4s;
+  z-index: 1000;
 }
 @media screen and (min-width: 1150px) {
   .nav {
