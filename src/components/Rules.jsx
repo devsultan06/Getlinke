@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import Woman from "../../public/image/woman.png";
-import Star from "../../public/image/sataGra5.png";
-import Arrow from "../../public/image/arrow.png";
+import Woman from "/image/woman.png";
+import Star from "/image/sataGra5.png";
+import Arrow from "/image/arrow.png";
 const Introduction = () => {
   return (
     <div className="rules bg-[#150e28] text-white border-b border-[#753386]">

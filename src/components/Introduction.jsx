@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import Idea from "../../public/image/theBigIdea1.png";
-import Star from "../../public/image/sataGra5.png";
-import Arrow from "../../public/image/arrow.png";
+import Idea from "/image/theBigIdea1.png";
+import Star from "/image/sataGra5.png";
+import Arrow from "/image/arrow.png";
 const Introduction = () => {
   return (
     <div className="introduction bg-[#150e28] text-white border-b border-[#753386]">

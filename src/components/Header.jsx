@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className=" text-white bg-[#150e28] all ">
       {/* <Navbar /> */}
-      <Navbar />
+      <NavbarHook />
       <div className="circle1 bg-no-repeat bg-cover absolute bg-purple-lens-flare pointer-events-none "></div>
       <div className="circle2 bg-no-repeat bg-cover absolute bg-purple-lens-flare left-[561px] top-0 w-[971px] h-[994px] pointer-events-none"></div>
       <div className="title pt-[120px]">
