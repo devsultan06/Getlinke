@@ -250,6 +250,7 @@ div.into {
 
   div.title-inner {
     margin-top: 100px;
+    width: 100%;
   }
 
   div.all-inner {
@@ -265,8 +266,14 @@ div.into {
     font-size: 40px;
   }
 
+  div.image{
+    text-align: center;
+    margin: 0 auto;
+  }
+
   div.image img {
     margin-top: 50px;
+    width: 100%;
   }
 
   .typing-container {
