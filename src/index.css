@@ -25,6 +25,11 @@ body {
   z-index: 0;
 }
 
+.rules .circle1 {
+  left: -100px;
+  width: 900px;
+}
+
 ul li a:hover {
   background-image: linear-gradient(to right, #903aff 10%, #d434fe 80%);
   -webkit-background-clip: text;
@@ -189,7 +194,8 @@ div.image img {
   }
 }
 
-div.introduction {
+div.introduction,
+div.rules {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -197,13 +203,22 @@ div.introduction {
   gap: 100px;
   padding: 100px 120px;
   position: relative;
+  border-bottom: 1px solid #753386;
 }
 
 div.into {
   width: 1700px;
-  z-index: 100;
+  z-index: 10000;
 }
 
+div.rules {
+  padding-left: 200px;
+}
+
+div.rules-image,
+div.rules-into {
+  z-index: 10000;
+}
 .star6,
 .arrow,
 .star5 {
@@ -239,6 +254,14 @@ div.into {
   .circle2 {
     display: none;
   }
+
+  .rules .circle1 {
+    left: -400px;
+    top: -0px;
+    width: 900px;
+    height: 836px;
+    z-index: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -266,7 +289,7 @@ div.into {
     font-size: 40px;
   }
 
-  div.image{
+  div.image {
     text-align: center;
     margin: 0 auto;
   }
@@ -330,11 +353,21 @@ div.into {
     animation: floatAround 10s linear infinite;
   }
 
-  div.introduction {
-    display: block;
+  div.introduction,
+  div.rules {
+    flex-direction: column;
     text-align: center;
-
+    border-bottom: 1px solid #753386;
     padding: 100px 10px;
+    gap: 30px;
+  }
+
+  div.rules {
+    flex-direction: column-reverse;
+    margin-top: -200px;
+  }
+  div.rules-image {
+    width: 100%;
   }
   div.into {
     width: 100%;
