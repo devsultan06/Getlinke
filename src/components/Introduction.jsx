@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
 import Idea from "/image/theBigIdea1.png";
 import Star from "/image/sataGra5.png";
 import Arrow from "/image/arrow.png";
@@ -11,8 +10,8 @@ const Introduction = () => {
       </div>
 
       <div className="into">
-        <h2 className="text-2xl font-bold ">Introduction to getlinked </h2>
-        <h2 className="text-[#D434FE] text-2xl font-bold mb-6">
+        <h2 className="text-3xl font-bold ">Introduction to getlinked </h2>
+        <h2 className="text-[#D434FE] text-3xl font-bold mb-6">
           tech Hackathon 1.0
         </h2>
         <p>

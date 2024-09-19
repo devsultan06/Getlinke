@@ -206,9 +206,28 @@ div.rules {
   border-bottom: 1px solid #753386;
 }
 
+div.criteria {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 100px;
+  padding: 100px 120px;
+  position: relative;
+  border-bottom: 1px solid #753386;
+}
+
+div.criterias {
+  z-index: 1000;
+}
+
 div.into {
   width: 1700px;
   z-index: 10000;
+}
+
+div.into-img {
+  z-index: 1000;
 }
 
 div.rules {
@@ -246,6 +265,45 @@ div.rules-into {
   animation: wanderAround 10s linear infinite;
 }
 
+div.faqs {
+  margin-top: 50px;
+}
+
+div.faq {
+  width: 500px;
+  margin-top: 20px;
+  border-bottom: 1px solid #d434fe;
+}
+
+div.faq img {
+  cursor: pointer;
+}
+
+p.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+p.answer.open {
+margin-bottom: 20px;
+  max-height: 150px; /* Adjust based on content size */
+}
+
+div.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+div.faq-image{
+  flex-shrink: 0;
+}
+
+
+
 @media screen and (max-width: 600px) {
   .circle1 {
     width: 800px;
@@ -265,6 +323,16 @@ div.rules-into {
 }
 
 @media screen and (max-width: 1000px) {
+  div.faq {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+  }
+
+  div.faq p {
+    font-size: 14px;
+  }
   div.box {
     display: block;
     text-align: center;
@@ -354,7 +422,8 @@ div.rules-into {
   }
 
   div.introduction,
-  div.rules {
+  div.rules,
+  div.criteria {
     flex-direction: column;
     text-align: center;
     border-bottom: 1px solid #753386;
@@ -362,6 +431,9 @@ div.rules-into {
     gap: 30px;
   }
 
+  div.criterias {
+    padding: 25px;
+  }
   div.rules {
     flex-direction: column-reverse;
     margin-top: -200px;
